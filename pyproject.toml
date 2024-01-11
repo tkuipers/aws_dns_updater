@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "aws-dns-ip-updater"
+version = "0.1.0"
+description = ""
+authors = ["Tyler Kuipers <tkuipers123@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+boto3 = "^1.34.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
